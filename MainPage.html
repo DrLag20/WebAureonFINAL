@@ -14,6 +14,14 @@
     </style>
 </head>
 
+<script>
+    document.querySelectorAll('.flip-scene').forEach(scene => {
+        scene.addEventListener('click', () => {
+            scene.querySelector('.flip-card').classList.toggle('is-flipped');
+        });
+    });
+</script>
+
 <body>
 
     <header>
@@ -51,76 +59,153 @@
         </div>
     </section>
 
-    <section id = "Objetivos">
-        <div class = "ObjetivosHeader">
-            <h1>¿Cuáles son nuestros objetivos?</h1>
-        </div>
-        <div class = "Contenedor-Objetivos1">
-            <div class = "Objetivo1">
-                <img src = "MainPageImages\bombillo_outline_only.svg" alt = "Objetivo 1" class = "ImageBombillo" width="40px" height="40px">
-                <h2>Objetivo 1</h2>
-                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
-            </div>
+    <section id="Objetivos">
+    <div class="ObjetivosHeader">
+        <h1>¿Cuáles son nuestros objetivos?</h1>
+    </div>
 
-            <div class = "Objetivo2">
-                <img src = "MainPageImages\bombillo_outline_only.svg" alt = "Objetivo 2" class = "ImageBombillo" width="40px" height="40px">
-                <h2>Objetivo 2</h2>
-                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
-            </div>
+    <div class="Contenedor-Objetivos1">
 
-            <div class = "Objetivo3">
-                <img src = "MainPageImages\bombillo_outline_only.svg" alt = "Objetivo 3" class = "ImageBombillo" width="40px" height="40px">
-                <h2>Objetivo 3</h2>
-                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
-            </div>
-
-            <div class = "Objetivo4">
-                <img src = "MainPageImages\bombillo_outline_only.svg" alt = "Objetivo 4" class = "ImageBombillo" width="40px" height="40px">
-                <h2>Objetivo 4</h2>
-                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
+        <div class="flip-scene">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 1</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 1</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
             </div>
         </div>
 
-            <br>
-
-        <div class = "Contenedor-Objetivos2">
-            <div class = "Objetivo5">
-                <img src = "MainPageImages\bombillo_outline_only.svg" alt = "Objetivo 5" class = "ImageBombillo" width="40px" height="40px">
-                <h2>Objetivo 5</h2>
-                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
-            </div>
-
-            <div class = "Objetivo6">
-                <img src = "MainPageImages\bombillo_outline_only.svg" alt = "Objetivo 6" class = "ImageBombillo" width="40px" height="40px">
-                <h2>Objetivo 6</h2>
-                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
-            </div>
-
-            <div class = "Objetivo7">
-                <img src = "MainPageImages\bombillo_outline_only.svg" alt = "Objetivo 7" class = "ImageBombillo" width="40px" height="40px">
-                <h2>Objetivo 7</h2>
-                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
-            </div>
-
-            <div class = "Objetivo8">
-                <img src = "MainPageImages\bombillo_outline_only.svg" alt = "Objetivo 8" class = "ImageBombillo" width="40px" height="40px">
-                <h2>Objetivo 8</h2>
-                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
+        <div class="flip-scene">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 2" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 2</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 2</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
             </div>
         </div>
-    </section>
+
+        <div class="flip-scene">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 3" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 3</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 3</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 4" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 4</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 4</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="Contenedor-Objetivos2">
+
+        <div class="flip-scene reverse">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 5" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 5</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 5</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene reverse">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 6" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 6</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 6</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene reverse">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 7" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 7</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 7</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene reverse">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 8" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 8</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 8</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
     <section id = "MVV">
         <div class = "MVV">
             <div class = "mision">
                 <h2>Misión</h2>
                 <p>Ser líderes en soluciones energéticas innovadoras que aprovechen la energía térmica y mecánica de forma eficiente y sostenible.</p>
-                <img src="MainPageImages\MisionImage.png" alt="Misión" class="mision-image">
+                <img src="MainPageImages\image_placeholder.svg" alt="Misión" class="mision-image">
             </div>
             <div class = "vision">
                 <h2>Visión</h2>
                 <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
-                <img src="MainPageImages\VisionImage.png" alt="Visión" class="vision-image">
+                <img src="MainPageImages\image_placeholder.svg" alt="Visión" class="vision-image">
             </div>
             <div class = "valores">
                 <h2>Valores</h2>
@@ -142,3 +227,36 @@
 </body>
 
 </html>
+
+<section id = "Contacto">
+    <div class = "Contacto">
+        <div class = "ContactoHeader">
+            <h1>Contáctanos llenando este formulario</h1>
+            <p>Si tienes alguna pregunta, comentario o deseas obtener más información sobre nuestros servicios, no dudes en contactarnos. Estamos aquí para ayudarte y brindarte la mejor experiencia posible.</p>
+        </div>
+        <form>
+
+        <label>Nombre completo</label>
+        <input type="text" placeholder="Escribe tu nombre">
+
+        <label>Número de teléfono</label>
+        <input type="number" placeholder="Escribe tu número de teléfono">
+
+        <label>Correo electrónico</label>
+        <input type="email" placeholder="Escribe tu correo electrónico">
+
+        <label>Tiene algún problema con alguno de nuestros productos? - Seleccione una opción</label>
+
+        <select>
+        <option>N/A</option>
+        <option>Guante NEXO</option>
+        </select>
+
+        <label>Describe tu problema</label>
+        <textarea placeholder="Describe tu problema aquí" rows="10"></textarea>
+            
+        <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+</section>
