@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', cursive;
+    background-color: grey;
+}
+
+nav {
+    padding: 25px;
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a {
+    color: #e8e81a;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Bungee', cursive;
+    text-shadow: 2px 2px 4px #e8e81a;
+}
+
+nav a:hover {
+    color: #0bad3b;
+}
+
+.NavBarFondo {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.AureonFondo {
+    height: 85vh;
+
+    background-color: #352020;
+
+    background-image: url(aureon_sphere_hero_banner.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+
+
+section {
+    padding:30px;
+    margin:20px;
+    background-color: #1f1f1f;
+    border-radius:10px;
+}
+
+.MVV {
+    height: auto;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.mision, .vision, .valores {
+    justify-content: center;
+    text-align: center;
+    background-color: #354e29;
+    color: white;
+    flex: 1;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.mision-image{
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.vision-image{
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
