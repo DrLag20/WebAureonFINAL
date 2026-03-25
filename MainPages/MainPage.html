@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MainPage</title>
+    <link rel="stylesheet" href="MainPage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+    </style>
+</head>
+
+<script>
+    document.querySelectorAll('.flip-scene').forEach(scene => {
+        scene.addEventListener('click', () => {
+            scene.querySelector('.flip-card').classList.toggle('is-flipped');
+        });
+    });
+</script>
+
+<body>
+
+    <header>
+        <p class = "AureonHeader">La mejor empresa tecnológica de República Dominicana</p>
+    </header>
+
+    <nav>
+        <a href="#AboutUs">Sobre nosotros</a>
+        <a href="#Objetivos">Objetivos</a>
+        <a href="#MVV">Misión - visión - valores</a>
+        <a href="#Productos">Productos</a>
+        <a href="#Contacto">Contacto</a>
+    </nav>
+
+    <div class = "AureonFondo">
+    </div>
+
+    <section id = "AboutUs">
+        <div class = "AboutUsHeader">
+            <h1>¿Quiénes somos y qué hacemos?</h1>
+        </div>
+        <div class = "AboutUsLR">
+            <div class = "AboutLeft">
+                <h2>Sobre nosotros</h2>
+                <p>Aureon nace de la idea de una energía brillante y poderosa. “Aure” evoca luz, brillo y algo valioso, 
+                mientras que “on” es un sufijo muy usado en física para nombrar partículas de energía, como electrón o fotón. 
+                Juntos forman un nombre que transmite energía pura, avanzada y llena de potencial.</p>
+            </div>
+            <div class = "AboutUsRight">
+                <h2>¿Quiénes somos?</h2>
+                <p>Somos una empresa dedicada a ofrecer soluciones tecnológicas innovadoras y de alta calidad.
+                Nos esforzamos por brindar productos de alta calidad a nuestros clientes, siempre poniendo al cliente como prioridad.</p>
+                <img src="MainPageImages\image_placeholder.svg" alt="Sobre nosotros" class="aboutus-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="Objetivos">
+    <div class="ObjetivosHeader">
+        <h1>Conoce sobre nuestros objetivos <br> e intenciones</h1>
+    </div>
+
+    <div class="Contenedor-Objetivos1">
+
+        <div class="flip-scene">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 1</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 1</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 2" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 2</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 2</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 3" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 3</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 3</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 4" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 4</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 4</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="Contenedor-Objetivos2">
+
+        <div class="flip-scene reverse">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 5" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 5</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 5</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene reverse">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 6" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 6</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 6</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene reverse">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 7" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 7</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 7</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-scene reverse">
+            <div class="flip-card">
+                <div class="flip-front">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 8" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 8</h2>
+                    <p>Toca para saber más</p>
+                </div>
+                <div class="flip-back">
+                    <img src="MainPageImages/bombillo_outline_only.svg" alt="Objetivo 1" class="ImageBombillo" width="40px" height="40px">
+                    <h2>Objetivo 8</h2>
+                    <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <section id = "MVV">
+        <div class = "MVV">
+            <div class = "mision">
+                <h2>Misión</h2>
+                <p>Ser líderes en soluciones energéticas innovadoras que aprovechen la energía térmica y mecánica de forma eficiente y sostenible.</p>
+                <img src="MainPageImages\image_placeholder.svg" alt="Misión" class="mision-image">
+            </div>
+            <div class = "vision">
+                <h2>Visión</h2>
+                <p>Desarrollar proyectos energéticos modernos, seguros y eficientes desde termoeléctricos hasta mecánicos utilizando tecnología avanzada para ofrecer rendimiento, estabilidad y bajo impacto ambiental.</p>
+                <img src="MainPageImages\image_placeholder.svg" alt="Visión" class="vision-image">
+            </div>
+            <div class = "valores">
+                <h2>Valores</h2>
+                <ul>
+                    <li>Innovación: Buscamos constantemente nuevas formas de aprovechar la energía térmica y mecánica para crear soluciones energéticas eficientes y sostenibles.</li>
+                    <br>
+                    <li>Sostenibilidad: Nos comprometemos a desarrollar proyectos que minimicen el impacto ambiental y promuevan el uso responsable de los recursos naturales.</li>
+                    <br>
+                    <li>Calidad: Nos esforzamos por ofrecer productos y servicios de alta calidad que cumplan con las expectativas de nuestros clientes y superen los estándares del mercado.</li>
+                    <br>
+                    <li>Colaboración: Fomentamos un ambiente de trabajo colaborativo donde se valoran las ideas y contribuciones de todos los miembros del equipo.</li>
+                    <br>
+                    <li>Responsabilidad: Asumimos la responsabilidad de nuestras acciones y decisiones, asegurando la transparencia y la ética en todas nuestras operaciones.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id = "Productos">
+        <h1>Conoce sobre nuestros productos aquí</h1>
+        <div class = "TextoGuante">
+            <h2>Nuestro producto principal, el Guante NEXO</h2>
+            <p>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+            </p>
+        </div>
+
+        <div class = "ImagenGuante">
+            <img src = "MainPageImages\HolderGloveImage.png" alt = "Imagen del guante NEXO" width = "450px" height = "400px">
+        </div>
+    </section>
+
+    <section id = "Contacto">
+        <div class = "Contacto">
+            <div class = "ContactoHeader">
+                <h1>Contáctanos llenando este formulario</h1>
+                <p>Si tienes alguna pregunta, comentario o deseas obtener más información sobre nuestros servicios, no dudes en contactarnos. <br>
+                    Estamos aquí para ayudarte y brindarte la mejor experiencia posible.</p>
+            </div>
+            <form>
+
+            <label>Nombre completo</label>
+            <input type="text" placeholder="Escribe tu nombre">
+
+            <label>Número de teléfono</label>
+            <input type="text" placeholder="Escribe tu número de teléfono">
+
+            <label>Correo electrónico</label>
+            <input type="email" placeholder="Escribe tu correo electrónico">
+
+            <label>Tiene algún problema con alguno de nuestros productos? - Seleccione una opción</label>
+
+            <select>
+            <option>N/A</option>
+            <option>Guante NEXO</option>
+            </select>
+
+            <label>Describe tu problema</label>
+            <textarea placeholder="Describe tu problema aquí" rows="10"></textarea>
+                
+            <button type="submit">Enviar</button>
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>
