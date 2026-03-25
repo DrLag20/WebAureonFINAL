@@ -28,15 +28,14 @@
         <p class = "AureonHeader">La mejor empresa tecnológica de República Dominicana</p>
     </header>
 
+    <nav>
+        <a href="#AboutUs">Sobre nosotros</a>
+        <a href="#Objetivos">Objetivos</a>
+        <a href="#MVV">Misión - visión - valores</a>
+        <a href="#Contacto">Contacto</a>
+    </nav>
+
     <div class = "AureonFondo">
-        <div class = "NavBarFondo">
-            <nav>
-                <a href="#AboutUs">Sobre nosotros</a>
-                <a href="#Objetivos">Objetivos</a>
-                <a href="#MVV">Misión - visión - valores</a>
-                <a href="#Contacto">Contacto</a>
-            </nav>
-        </div>
     </div>
 
     <section id = "AboutUs">
@@ -224,39 +223,37 @@
         </div>
     </section>
 
-</body>
+    <section id = "Contacto">
+        <div class = "Contacto">
+            <div class = "ContactoHeader">
+                <h1>Contáctanos llenando este formulario</h1>
+                <p>Si tienes alguna pregunta, comentario o deseas obtener más información sobre nuestros servicios, no dudes en contactarnos. Estamos aquí para ayudarte y brindarte la mejor experiencia posible.</p>
+            </div>
+            <form>
 
-</html>
+            <label>Nombre completo</label>
+            <input type="text" placeholder="Escribe tu nombre">
 
-<section id = "Contacto">
-    <div class = "Contacto">
-        <div class = "ContactoHeader">
-            <h1>Contáctanos llenando este formulario</h1>
-            <p>Si tienes alguna pregunta, comentario o deseas obtener más información sobre nuestros servicios, no dudes en contactarnos. Estamos aquí para ayudarte y brindarte la mejor experiencia posible.</p>
+            <label>Número de teléfono</label>
+            <input type="number" placeholder="Escribe tu número de teléfono">
+
+            <label>Correo electrónico</label>
+            <input type="email" placeholder="Escribe tu correo electrónico">
+
+            <label>Tiene algún problema con alguno de nuestros productos? - Seleccione una opción</label>
+
+            <select>
+            <option>N/A</option>
+            <option>Guante NEXO</option>
+            </select>
+
+            <label>Describe tu problema</label>
+            <textarea placeholder="Describe tu problema aquí" rows="10"></textarea>
+                
+            <button type="submit">Enviar</button>
+
+            </form>
         </div>
-        <form>
-
-        <label>Nombre completo</label>
-        <input type="text" placeholder="Escribe tu nombre">
-
-        <label>Número de teléfono</label>
-        <input type="number" placeholder="Escribe tu número de teléfono">
-
-        <label>Correo electrónico</label>
-        <input type="email" placeholder="Escribe tu correo electrónico">
-
-        <label>Tiene algún problema con alguno de nuestros productos? - Seleccione una opción</label>
-
-        <select>
-        <option>N/A</option>
-        <option>Guante NEXO</option>
-        </select>
-
-        <label>Describe tu problema</label>
-        <textarea placeholder="Describe tu problema aquí" rows="10"></textarea>
-            
-        <button type="submit">Enviar</button>
-
-        </form>
-    </div>
-</section>
+    </section>
+</body>
+</html>
