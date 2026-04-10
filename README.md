@@ -1,3 +1,5 @@
 # WebAureonFINAL
 
-Página Web de Aureon, ahora mismo solo contiene el guante
+Página Web de Aureon.
+
+Página de la empresa y productos (Guante NEXO).
