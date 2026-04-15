@@ -102,7 +102,7 @@
     }
     .hero-title em { font-style: italic; color: var(--gold); }
     .hero-subtitle {
-      font-size: 0.9rem; line-height: 1.9; color: var(--muted2);
+      font-size: 0.9rem; line-height: 1.9; color: white;
       max-width: 560px; margin: 0 auto 2.8rem;
       font-weight: 300; letter-spacing: 0.03em;
       animation: fadeUp 1s 0.35s ease both;
@@ -159,7 +159,7 @@
     }
     .section-title em { font-style: italic; color: var(--gold); }
     .section-sub {
-      color: var(--muted2); font-size: 0.88rem; line-height: 1.9;
+      color: white; font-size: 0.88rem; line-height: 1.9;
       max-width: 500px; font-weight: 300;
     }
 
@@ -202,7 +202,7 @@
       font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em;
       text-transform: uppercase; color: var(--gold); margin-bottom: 0.6rem;
     }
-    .about-col p { color: var(--muted2); font-size: 0.82rem; line-height: 1.8; font-weight: 300; }
+    .about-col p { color: white; font-size: 0.82rem; line-height: 1.8; font-weight: 300; }
 
     #objetivos { background: var(--navy); }
     .objetivos-header { text-align: center; margin-bottom: 5rem; }
@@ -246,7 +246,7 @@
       text-transform: uppercase;
     }
     .obj-card .obj-text {
-      color: var(--muted2); font-size: 0.82rem; line-height: 1.8;
+      color: white; font-size: 0.82rem; line-height: 1.8;
       font-weight: 300; display: none;
     }
     .obj-card.is-open .obj-preview { display: none; }
@@ -280,9 +280,9 @@
     }
     .mvv-card h3 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 2rem; font-weight: 300; margin-bottom: 1rem; color: var(--text);
+      font-size: 2rem; font-weight: 300; margin-bottom: 1rem; color: var(--gold);
     }
-    .mvv-card p { color: var(--muted2); font-size: 0.84rem; line-height: 1.9; font-weight: 300; max-width: 460px; }
+    .mvv-card p { color: white; font-size: 0.84rem; line-height: 1.9; font-weight: 300; max-width: 460px; }
     .mvv-watermark {
       position: absolute; bottom: -1rem; right: 1.5rem;
       font-family: 'Cormorant Garamond', serif;
@@ -311,7 +311,7 @@
       color: var(--gold); margin-bottom: 0.6rem;
     }
     .valor-card p {
-      color: var(--muted2); font-size: 0.78rem;
+      color: white; font-size: 0.78rem;
       line-height: 1.8; font-weight: 300;
     }
     .valor-num {
