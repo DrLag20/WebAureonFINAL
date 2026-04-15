@@ -1,6 +1,6 @@
 # WebAureonFINAL
 
-Página Web de Aureon.
+Página Web de Aureon Sphere - Empresa tecnológica de RD.
 
 Página de la empresa y productos (Guante NEXO).
 
