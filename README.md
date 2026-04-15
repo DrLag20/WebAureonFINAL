@@ -10,4 +10,4 @@ Actualizaciones y versiones:
 
 -N/A --- Versión 1.0
 
--Texto en varias secciones cambiado a un texto blanco para mejor visualización del texto --- Versión 1.1
+-Texto en varias secciones cambiado a un texto blanco para mejor visualización del texto, entre otros arreglos menores de bugs --- Versión 1.1
