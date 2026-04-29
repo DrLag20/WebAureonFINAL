@@ -11,3 +11,5 @@ Actualizaciones y versiones:
 -N/A --- Versión 1.0
 
 -Texto en varias secciones cambiado a un texto blanco para mejor visualización del texto, entre otros arreglos menores de bugs --- Versión 1.1
+
+--Duración de la batería establecida, imagen añadida en apartado de pág del Guante NEXO y cambios menores --- Versión 1.2
