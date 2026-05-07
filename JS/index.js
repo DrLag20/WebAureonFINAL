@@ -33,3 +33,19 @@ const nav = document.getElementById('mainNav');
   document.getElementById('btnEnviar').addEventListener('click', togglePopup);
   document.getElementById('btnCerrar').addEventListener('click', togglePopup);
   document.getElementById('overlay').addEventListener('click', togglePopup);
+
+  const video = document.getElementById("nexoVideo");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    });
+  }, {
+    threshold: 0.5
+  });
+
+  observer.observe(video);

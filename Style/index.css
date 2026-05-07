@@ -339,24 +339,28 @@
     .producto-layout {
       display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center;
     }
+   .producto-img-wrap video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
     .producto-img-wrap {
-      position: relative; height: 500px; border-radius: 2px; overflow: hidden;
+      position: relative;
+      width: 100%;
+      max-width: 420px;
+      aspect-ratio: 9 / 16;
+      margin: 0 auto;
+      border-radius: 2px;
+      overflow: hidden;
     }
-    .producto-img-wrap img {
-      width: 100%; height: 100%; object-fit: cover; filter: grayscale(15%) brightness(0.85);
-      transition: transform 0.6s ease, filter 0.4s;
+
+    .producto-img-wrap:hover video {
+      transform: scale(1.03);
+      filter: grayscale(0%) brightness(1);
     }
-    .producto-img-wrap:hover img { transform: scale(1.03); filter: grayscale(0%) brightness(1); }
-    .producto-img-wrap::before {
-      content: ''; position: absolute;
-      top: -12px; right: -12px; left: 12px; bottom: 12px;
-      border: 0.5px solid var(--gold); border-radius: 2px;
-      z-index: 0; pointer-events: none;
-    }
-    .producto-img-wrap::after {
-      content: ''; position: absolute; inset: 0;
-      background: linear-gradient(to top, rgba(10,14,31,0.5) 0%, transparent 60%);
-    }
+
     .producto-tag {
       display: inline-block;
       font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
